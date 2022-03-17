@@ -1,0 +1,95 @@
+body {
+    margin: 0px auto;
+    padding: 0px 15px;
+    min-width: 1024px;
+    max-width: 1024px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+}
+
+header {
+    
+       background-image: url(https://i.ytimg.com/vi/awv9o5AI9wc/maxresdefault.jpg);
+}
+.name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #7390A9;
+}
+
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+
+h3 {
+    background-color: #019EBB;
+    padding: 15px;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: left;
+    line-height: 40px;
+}
+.myimage {
+    
+    display: block;
+    width: 450px;
+    height: 450px;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80%;
+    
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgba(20, 16, 241, 0.363);
+    padding: 10px 0px;
+}
+
+.logoImage {
+    
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80%;
+    
+}
+
+.links {
+    text-align: center;
+    background-color: rgba(20, 16, 241, 0.363);
+    padding: 10px 0px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.testImage {
+    min-width: 1024px;
+    max-width: 1024px;
+    border: 2px solid black;
+}
